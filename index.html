@@ -5,19 +5,31 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Manuel Garrido's Personal Page">
-	<meta name="author" content="ManuGarri">
+	<meta name="author" content="@manugarri">
 	<title>Manugarri</title>
 	<link type="text/css" rel="stylesheet" media="all" href="assets/manugarri.css"></link>
     </head>
-    <body>
+<body>
 <div class="wrapper">
-    <img class="sombra" src="assets/images/sombra.png">
+  <img id="isntitcute" class="background" src="assets/images/ma.png">
+  <script>
+    var imageUrls = [
+        "assets/images/baby.png",
+        "assets/images/dog.png"
+    ];
+    document.getElementById("isntitcute").src = imageUrls[Math.floor(Math.random() * imageUrls.length)];
+   
+    function getBG() {
+        var img = document.getElementById("isntitcute");
+        img.src = imageUrls[Math.floor(Math.random() * imageUrls.length)];
+    }
+  </script>      
 
-    <div class="twitter">
-      <a href="https://twitter.com/manugarri" target="_blank">
-        <img src="assets/images/twitter.png">
-      </a>
-    </div>
+  <div class="twitter">
+    <a href="https://twitter.com/manugarri" target="_blank">
+      <img src="assets/images/twitter.png">
+    </a>
+  </div>
 
     <div class="linkedin">
 	<a href="http://www.linkedin.com/in/manuelgarridopena/" target="_blank">
@@ -31,6 +43,11 @@
       </a>
     </div>
 
+    <div class="blog">
+      <a href="http://blog.manugarri.com" target="_blank">
+        <img src="assets/images/blog.png">
+      </a>
+    </div>
 </div>
     </body>
 </html>
