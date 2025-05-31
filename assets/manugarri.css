@@ -1,0 +1,65 @@
+.wrapper {
+position:relative;
+max-width:100%;
+float:right;
+}
+
+.background {
+position:relative;
+z-index:0;
+max-width:100%;
+}
+
+.ma {
+position:relative;
+z-index:0;
+max-width:100%;
+}
+
+.twitter {
+z-index:1;
+position:absolute;
+top:1%;
+left:85%;
+max-width:20%;
+}
+
+.twitter img {
+max-width:100%;
+}
+
+.linkedin {
+z-index:2;
+position:absolute;
+top:25%;
+left:60%;
+max-width:15%;
+}
+
+.linkedin img {
+max-width:100%;
+}
+
+.github {
+z-index:2;
+position:absolute;
+top:3%;
+left:55%;
+max-width:15%;
+}
+
+.github img {
+max-width:100%;
+}
+
+.blog {
+z-index:2;
+position:absolute;
+top:20%;
+left:85%;
+max-width:95%;
+}
+
+.blog img {
+max-width:100%;
+}
